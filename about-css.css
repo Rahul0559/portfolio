@@ -1,0 +1,68 @@
+.about-content-div{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  margin-top:74px;
+  border-style:solid;
+  border-width:2px;
+  border-color: #081b29;
+  margin-bottom:0px;
+}
+.image-about-content{
+  position: relative;
+  left:25%;
+  top:13%;
+  width:200px;
+}
+.text-about-content{
+  margin-top: 80px;
+  margin-left: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 44px;
+  margin-bottom: 0px;
+}
+.fotter-imgs{
+  width:40px;
+  padding-bottom:40px;
+}
+.about-icone-div{
+  margin-left:120px;
+  margin-top: 20px;
+}
+.About-main-div{
+  background-color:#081b29;
+}
+.About-About{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 300px;
+}
+.content-about-div{
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  width:550px;
+  margin-left: 80px;
+}
+#image-about-content2{
+  margin-top:40px;
+}
+#skill-exprence-div{
+  margin-left:50px;
+}
+#skill-exprence{
+  margin-left:250px;
+}
+#image-about-content-exprence{
+  margin-left:157px;
+}
+#exprence-main-div{
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+.Mquee-content{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 27px;
+}
