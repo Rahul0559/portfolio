@@ -1,0 +1,45 @@
+.footer-Portfolio{
+  font-size:40px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+#fotter-link{
+border-style:solid;
+border-width: 2px;
+border-color: #07283f; 
+padding: 10px;
+border-top: none;
+border-bottom: none;
+}
+.fotter-imgs{
+  justify-content: space-between;
+  margin-left: 40px;
+  width: 60px;
+  transition-property:transform;
+  transition-duration:0.3s;
+  transition-timing-function:ease;
+  transition-delay:0s;
+}
+.fotter-imgs:hover{
+  transform: translateY(-10px);
+}
+.fotter-line{
+  height: 60px;
+  background-color:transparent;
+  border-style: solid;
+  border-color: #07283f;
+  border-width: 2px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin-top: 25px;
+}
+@media screen and (max-width:600px){
+  .fotter-imgs{
+    margin-left: 20px;
+  }
+  .mobile-fotter{
+    height:100px;
+  }
+}

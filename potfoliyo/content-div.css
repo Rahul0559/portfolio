@@ -1,0 +1,208 @@
+.Main-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:80px;
+}
+.first-line{
+  font-size: 80px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-left: 90px;
+  margin-bottom: 0px;
+  animation: slideInleft 1s ease-in 1s 1 normal none;
+  animation-range:entry 30%;
+  margin-top: 20px;
+}
+.second-line{
+  font-size: 30px;
+  font-style: italic;
+  color:#081b29;
+  margin-left: 90px;
+}
+.content-pragraph{
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  margin-left: 90px;
+  width: 400px;
+  animation: slideInright 1s ease-in 1s 1 normal none;
+}
+.button-pragraph{
+  margin-left: 90px;
+  margin-top: 40px;
+}
+.button-style{
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border-radius: 3px;
+  color:#081b29;
+  background-color: rgb(37, 150, 190);
+  margin-right: 40px;
+  border-color: #081b29;
+  border-width: 1.5px;
+  border-style: solid;
+  cursor: pointer;
+  transition: 3s;
+  transition-property:transform;
+  transition-duration:0.3s;
+  transition-timing-function:ease;
+  transition-delay:0s;
+}
+#let-talk-button{
+  margin-left: 20px;
+}
+.button-style:hover{
+  color:rgb(37, 150, 190);
+  background-color: #081b29;
+  transform: translateY(-10px);
+}
+.My-resume-button:hover{
+  text-decoration: underline;
+}
+.Right-div-image{
+  width: 320px;
+  margin-left:200px;
+  border-radius: 50%;
+  animation: slideInZ 1s ease-in 1s 1 normal none;
+  margin-top: 10px;
+}
+.intro{
+  font-size:40px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-top: 4px;
+  animation: slidedown 1s ease-in 1s 1 normal none;
+}
+.Skills-content{
+  font-size:30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+.skill-content{
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  margin-left: 10px;
+  margin-top:40px;
+}
+#left-side-content{
+  animation: slideInleft 1s ease-in 1s 1 normal none;
+}
+#righ-side-content{
+  animation: slideInright1 1s ease-in 1s 1 normal none;
+}
+.link-imgs{
+  width: 60px;
+  display: block;
+  margin-left: 100px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+.links-text{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 160px;
+  margin-top:0px;
+}
+@keyframes slideInleft{
+  from{
+    transform: translateX(-200px);
+  }
+  to{
+     transform: translateX(0px);
+  }
+}
+@keyframes slideInright{
+  from{
+    transform: translateY(-200px);
+  }
+  to{
+     transform: translateY(0px);
+  }
+}
+@keyframes slideInZ{
+  from{
+    transform: translateY(200px);
+  }
+  to{
+     transform: translateY(0px);
+  }
+}
+@keyframes slidedown{
+  from{
+    transform: translateY(-200px);
+  }
+  to{
+     transform: translateY(0px);
+  }
+}
+@keyframes slideInright1{
+  from{
+    transform: translateX(200px);
+  }
+  to{
+     transform: translateX(0px);
+  }
+}
+@media screen and (max-width:600px){
+  .first-line{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    animation: slideInleft 1s ease-in 1s 1 normal none;
+    margin-top: 20px;
+    width: 150px;
+  }
+  .second-line{
+    font-size: 20px;
+    margin-left:40px;
+  }
+  .content-pragraph{
+    font-size: 20px;
+    margin-left: 40px;
+    width: 150px;
+  }
+  .Main-content{
+    grid-template-columns: 150fr 1fr;
+  }
+  .Right-div-image{
+    width: 200px;
+    margin-left:0px;
+    margin-top: 200px;
+    margin-right:60px;
+  }
+  .button-pragraph{
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .button-style{
+    width: 150px;
+    margin-left: 0px;
+    
+  }
+  #let-talk-button{
+    margin-left: 0px;
+    margin-top:20px;
+  }
+  .skill-content-mobilw{
+    height:250px;
+  }
+  .link-imgs{
+    width: 60px;
+    display:inline-block;
+    margin-left: 40px;
+  }
+  .skill-content{
+    margin-top: 10px;
+  }
+}
